@@ -1,3 +1,14 @@
 html,body{
     font-family:Helvetica, sans-serif;
 }
+.who-am-i-para{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+@media only screen and (max-width: 735px){
+    .who-am-i-para{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+}
