@@ -8,6 +8,9 @@ body {
 	margin-right: auto;
 	padding: 20px;
 }
+.typscript {
+	margin-top: -20px;
+}
 @media only screen and (max-width: 735px) {
 	.who-am-i-para {
 		margin-left: 5px !important;
