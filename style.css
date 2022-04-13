@@ -23,6 +23,14 @@ body {
 	font-size: 1.7rem;
 	flex-wrap: wrap;
 }
+.body_all_of_it .header_all_of_it section h2 {
+	margin-left: 2vw;
+	margin-top: 2vw;
+}
+.body_all_of_it .header_all_of_it section i {
+	margin-left: 2vw;
+	margin-top: 2vw;
+}
 .body_all_of_it .main_all_of_it .main_header {
 	font-size: 2rem;
 	font-weight: bold;
@@ -92,4 +100,9 @@ body {
 .body_all_of_it .main_all_of_it .my_exp_all_of_it p {
 	text-align: center;
 	font-size: 1.7rem;
+}
+@media only screen and (max-width: 428px) {
+	html {
+		font-size: 12px;
+	}
 }
