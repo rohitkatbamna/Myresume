@@ -65,13 +65,12 @@ body {
 }
 .body_all_of_it .main_all_of_it .diploma_all_of_it p {
 	text-align: center;
-	margin: 2vw 0 2vw 0;
+	margin: 1vw 0 1vw 0;
 	font-size: 1.7rem;
-	font-weight: 600;
 }
 .body_all_of_it .main_all_of_it .diploma_all_of_it h2 {
 	text-align: center;
-	margin: 2vw 0 2vw 0;
+	margin: 1vw 0 1vw 0;
 	font-size: 1.7rem;
 	font-weight: 600;
 }
@@ -80,4 +79,17 @@ body {
 	flex-wrap: wrap;
 	place-content: center center;
 	align-content: center;
+	font-size: 2rem;
+	margin-top: 1vw;
+}
+.body_all_of_it .main_all_of_it .my_exp_all_of_it .my_exp p {
+	margin-left: 1vw;
+	font-weight: bold;
+}
+.body_all_of_it .main_all_of_it .my_exp_all_of_it .my_place_ixiono {
+	margin: 2vw 0 2vw 0;
+}
+.body_all_of_it .main_all_of_it .my_exp_all_of_it p {
+	text-align: center;
+	font-size: 1.7rem;
 }
