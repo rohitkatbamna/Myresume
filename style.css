@@ -1,19 +1,83 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html,
 body {
-	font-family: "Poppins", sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.who-am-i-para {
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
+.body_all_of_it {
+	background-color: antiquewhite;
 }
-.typscript {
-	margin-top: -20px;
+.body_all_of_it .header_all_of_it {
+	margin-top: 4vw;
+	margin-bottom: 2vw;
 }
-@media only screen and (max-width: 735px) {
-	.who-am-i-para {
-		margin-left: 5px !important;
-		margin-right: 5px !important;
-	}
+.body_all_of_it .header_all_of_it h1 {
+	text-align: center;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+.body_all_of_it .header_all_of_it section {
+	display: flex;
+	place-content: center space-around;
+	align-items: center;
+	margin-top: 3vw;
+	font-weight: bold;
+	font-size: 1.7rem;
+	flex-wrap: wrap;
+}
+.body_all_of_it .main_all_of_it .main_header {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 2vw;
+}
+.body_all_of_it .main_all_of_it .who_am_i_para {
+	font-size: 1.5rem;
+	margin: 4vw 3vw 4vw 3vw;
+}
+.body_all_of_it .main_all_of_it .proficient_head {
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	place-content: center center;
+	align-items: center;
+	margin-top: 2vw;
+}
+.body_all_of_it .main_all_of_it ul li {
+	display: flex;
+	flex-wrap: wrap;
+	place-content: center center;
+	align-items: center;
+	font-size: 1.7rem;
+	margin: 30px 0px 30px 0px;
+}
+.body_all_of_it .main_all_of_it ul li p {
+	margin-left: 10px;
+}
+.body_all_of_it .main_all_of_it .diploma_all_of_it .my_qual {
+	display: flex;
+	font-size: 2rem;
+	place-content: center center;
+	align-items: center;
+	font-weight: bold;
+	flex-wrap: wrap;
+}
+.body_all_of_it .main_all_of_it .diploma_all_of_it .my_qual h2 {
+	margin-left: 1vw;
+}
+.body_all_of_it .main_all_of_it .diploma_all_of_it p {
+	text-align: center;
+	margin: 2vw 0 2vw 0;
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+.body_all_of_it .main_all_of_it .diploma_all_of_it h2 {
+	text-align: center;
+	margin: 2vw 0 2vw 0;
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+.body_all_of_it .main_all_of_it .my_exp_all_of_it .my_exp {
+	display: flex;
+	flex-wrap: wrap;
+	place-content: center center;
+	align-content: center;
 }
