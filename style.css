@@ -17,8 +17,8 @@ body {
 .body_all_of_it .header_all_of_it section {
 	display: flex;
 	place-content: center space-around;
-	align-items: center;
-	margin-top: 3vw;
+	align-items: baseline;
+	margin-top: 1vw;
 	font-weight: bold;
 	font-size: 1.7rem;
 	flex-wrap: wrap;
@@ -94,7 +94,7 @@ body {
 	margin-left: 1vw;
 	font-weight: bold;
 }
-.body_all_of_it .main_all_of_it .my_exp_all_of_it .my_place_ixiono {
+.body_all_of_it .main_all_of_it .my_exp_all_of_it .my_place_work {
 	margin: 2vw 0 2vw 0;
 }
 .body_all_of_it .main_all_of_it .my_exp_all_of_it p {
@@ -105,4 +105,8 @@ body {
 	html {
 		font-size: 12px;
 	}
+}
+.Margin_above_below {
+	margin-top: 1vw;
+	margin-bottom: 1vw;
 }
